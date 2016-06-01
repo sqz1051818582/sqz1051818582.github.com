@@ -1,0 +1,52 @@
+ * {
+     padding: 0;
+     margin: 0;
+ }
+ 
+ html,
+ body {
+     width: 100%;
+     height: 100%;
+     background: #fcfaf5;
+ }
+ 
+ .wrap {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .wrap>img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     margin: 0 auto;
+ }
+ 
+ .num {
+     position: absolute;
+     top: 22%;
+     left: 51.5%;
+     color: #e87700;
+     font-weight: bold;
+     font-size: 14px;
+ }
+ 
+ .btn {
+     width: 100%;
+     display: -webkit-box;
+     position: absolute;
+     bottom: 8%;
+     left: 0;
+ }
+ 
+ .btn a {
+     display: block;
+     -webkit-box-flex: 1;
+ }
+ 
+ .btn a img {
+     display: block;
+     width: 80%;
+     height: 80%;
+     margin: 0 auto;
+ }

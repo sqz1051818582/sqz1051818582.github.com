@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>百多邦</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/scene.css">
+    <link rel="stylesheet" href="lib/swiper.min.css">
+</head>
+
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="imgs/friend.jpg" alt="">
+                <div class="btn" id="btn">
+                    <a href="friend.html">
+                        <img src="imgs/xuanta.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="imgs/airen.jpg" alt="">
+                <div class="btn" id="btn">
+                    <a href="love.html">
+                        <img src="imgs/xuanta.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="imgs/work.jpg" alt="">
+                <div class="btn" id="btn">
+                    <a href="work.html">
+                        <img src="imgs/xuanta.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+
+    </div>
+
+    <script src="lib/swiper.min.js"></script>
+    <script src="lib/zepto.min.js"></script>
+    <script>
+        document.addEventListener("touchmove", function (e) {
+            e.preventDefault();
+        }, false)
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30
+                /* effect: 'fade'*/
+        });
+    </script>
+</body>
+
+</html>
